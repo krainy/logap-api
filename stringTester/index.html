@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../commom.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img class="logo-img" height="192" width="552" src="../img/logo.png">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a>
+                            <p class="nav-p" style="color: #2e427a;">Testador de String</p>
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <!-- Link temporário, apenas para demonstração -->
+                        <a href="../sales/index.html">
+                            <p class="nav-p">Setor de Vendas</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="core-div">
+        <h2 class="core-item">Testador de Strings</h2>
+        <p class="core-item" style="max-width: 600px; padding-bottom:20px;">A ideia desta tarefa é desenvolver uma
+            API (Restful) simples que receba uma requisição HTTP com uma string, e encontre o primeiro caractere Vogal,
+            após uma consoante, onde a mesma é antecessora a uma vogal e que não se repita na string.</p>
+        <div class="core-container">
+            <div class="core-item">
+                <input id="txt-input" type="text" name="text" placeholder="Insira a String a ser testada">
+            </div>
+            <div class="core-item">
+                <button onclick="submit()">Testar</button>
+            </div>
+        </div>
+        <p id="text" class="core-item"></p>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

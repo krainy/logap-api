@@ -1,0 +1,35 @@
+.add{
+    padding-top: 10px;
+}
+
+.table{
+    width: 100%;
+
+}
+
+ul.table{
+    width: fit-content;
+}
+
+.table-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.li-item{
+    width:calc(((100vw - 80px) / 5));
+    border: groove;
+    border-width: 1px;
+    text-align: center;
+}
+
+.item{
+    color: white;
+    font-weight: bold;
+    border-color: black;
+}
+
+.st{
+    background-color: #2e427a;
+    border-color: black;
+}

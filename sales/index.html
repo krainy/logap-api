@@ -1,0 +1,77 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../commom.css">
+    <link rel="stylesheet" href="./sales.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img class="logo-img" height="192" width="552" src="../img/logo.png">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <!-- Link temporário, apenas para demonstração -->
+                        <a href="../stringTester/index.html">
+                            <p class="nav-p">Testador de String</p>
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <a>
+                            <p class="nav-p" style="color: #2e427a;">Setor de Vendas</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="core-div">
+
+        <!-- Protótipo referente à entrada de dados na tabela (banco de dados) -->
+        <!-- <div class="add">
+            <input id="id" placeholder="Insira o Id do item">
+            <input id="name" placeholder="Insira o Nome do item">
+            <input id="type" placeholder="Insira a Categoria do item">
+            <input id="value" placeholder="Insira o Valor do item">
+            <input id="dealer" placeholder="Insira o Distribuidor do item">
+            <button onclick="submitPostRequest()">Adicionar à tabela</button>
+        </div> -->
+
+        <div class="table">
+            <ul id="table-ul" class="table">
+                <li class=" table-line">
+                    <div class="st li-item">
+                        <p class="item">ID</p>
+                    </div>
+                    <div class="st li-item">
+                        <p class="item">Item</p>
+                    </div>
+                    <div class="st li-item">
+                        <p class="item">Categoria</p>
+                    </div>
+                    <div class="st li-item">
+                        <p class="item">Preço</p>
+                    </div>
+                    <div class="st li-item">
+                        <p class="item">Revendedor</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="./requestobject.js"></script>
+    <script src="./sendscript.js"></script>
+
+</body>
+
+</html>
